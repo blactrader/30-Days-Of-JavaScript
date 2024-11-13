@@ -1,0 +1,58 @@
+<html>
+    <body>
+    <script>
+        const challenge = ' 30 Days Of JavaScript ';
+        console.log(challenge)
+        console.log(challenge.length) // print on the browser the length of the string
+
+        console.log(challenge.toUpperCase()) //print the string in uppercase
+        console.log(challenge.toLowerCase())  //print the string in lowercase
+
+        console.log(challenge.substr(2, 21)) //split using substr the first word
+
+        console.log(challenge.includes('script')) //check if the string contain a word 'script'
+
+        console.log(challenge.split()) //split the string into an array
+
+        console.log(challenge.split(' ')) //split the string into an array at space
+
+        const companies = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+
+        console.log(companies.split(',')) //split the string at the comma and changed it into an array
+
+        console.log(challenge.replace('JavaScript', 'Python')) // replacing javascript with pyhton on the string
+
+        console.log(challenge.charAt(15)) // checking the character at index 15
+
+        console.log(challenge.charCodeAt('J')) // checking the charCode of j
+
+        console.log(challenge.indexOf('a')) //checking the index of first 'a' on the string
+
+        console.log(challenge.lastIndexOf('a')) //checkinh the last index of 'a'
+
+        const sentence = 'You cannot end a sentence with because because because is a conjunction';
+
+        console.log(sentence.indexOf('because')) //finding the first index of 'because'
+
+        console.log(sentence.lastIndexOf('because')) //finding the last index of 'because'
+
+        console.log(sentence.search('because')) //finding the first position of 'because'
+
+        console.log(challenge.trim()) // removing whitespaces at the begging and the end of the string
+
+        console.log(challenge.startsWith(' ')) // using startWith method to make result true
+
+        console.log(challenge.endsWith(' '))  //using endsWith method to make the result true
+
+        console.log(challenge.match('a'))
+
+        const word1 = '30 Days of';
+
+        console.log(word1.concat(' JavaScript'))
+
+        console.log(challenge.repeat(2))
+    </script>
+    </body>
+    
+
+</html>
